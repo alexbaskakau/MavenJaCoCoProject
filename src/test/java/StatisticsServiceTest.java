@@ -18,6 +18,7 @@ public class StatisticsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void findMaxIfMaxInMiddle() {
         StatisticsService service = new StatisticsService();
